@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "EYEDLE"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				-26
+			],
+			"anim": "click",
+			"fps": 24,
+			"name": "quint",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				-9
+			],
+			"anim": "stare",
+			"fps": 24,
+			"name": "Viewing0016",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				-9
+			],
+			"anim": "stare start",
+			"fps": 24,
+			"name": "Viewing",
+			"indices": []
+		},
+		{
+			"offsets": [
+				159,
+				-46
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "run",
+			"indices": [],
+			"name": "retreat"
+		},
+		{
+			"offsets": [
+				84,
+				0
+			],
+			"loop": false,
+			"fps": 25,
+			"anim": "come",
+			"indices": [],
+			"name": "enter"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "datree/mechanics/gift",
+	"position": [
+		25,
+		40
+	],
+	"healthicon": "mom",
+	"flip_x": false,
+	"healthbar_colors": [
+		216,
+		85,
+		142
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="play.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="play idle0000" x="0" y="1147" width="320" height="352" frameX="0" frameY="0" frameWidth="321" frameHeight="352"/>
+	<SubTexture name="play idle0001" x="0" y="1147" width="320" height="352" frameX="0" frameY="0" frameWidth="321" frameHeight="352"/>
+	<SubTexture name="play idle0002" x="0" y="795" width="321" height="352"/>
+	<SubTexture name="play idle0003" x="0" y="795" width="321" height="352"/>
+	<SubTexture name="play selected0000" x="0" y="0" width="368" height="400"/>
+	<SubTexture name="play selected0001" x="0" y="0" width="368" height="400"/>
+	<SubTexture name="play selected0002" x="0" y="400" width="363" height="395" frameX="-3" frameY="-2" frameWidth="368" frameHeight="400"/>
+	<SubTexture name="play selected0003" x="0" y="400" width="363" height="395" frameX="-3" frameY="-2" frameWidth="368" frameHeight="400"/>
+	<SubTexture name="play clicked0000" x="363" y="400" width="351" height="319" frameX="0" frameY="-57" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0001" x="363" y="400" width="351" height="319" frameX="0" frameY="-57" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0002" x="368" y="0" width="294" height="376" frameX="-28" frameY="0" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0003" x="368" y="0" width="294" height="376" frameX="-28" frameY="0" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0004" x="320" y="1500" width="314" height="358" frameX="-18" frameY="-17" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0005" x="320" y="1500" width="314" height="358" frameX="-18" frameY="-17" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0006" x="320" y="1147" width="319" height="353" frameX="-15" frameY="-22" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0007" x="320" y="1147" width="319" height="353" frameX="-15" frameY="-22" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0008" x="0" y="1499" width="320" height="352" frameX="-15" frameY="-23" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0009" x="0" y="1499" width="320" height="352" frameX="-15" frameY="-23" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0010" x="321" y="795" width="320" height="351" frameX="-16" frameY="-24" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0011" x="321" y="795" width="320" height="351" frameX="-16" frameY="-24" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0012" x="0" y="1499" width="320" height="352" frameX="-15" frameY="-23" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0013" x="0" y="1499" width="320" height="352" frameX="-15" frameY="-23" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0014" x="321" y="795" width="320" height="351" frameX="-16" frameY="-24" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0015" x="321" y="795" width="320" height="351" frameX="-16" frameY="-24" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0016" x="0" y="1499" width="320" height="352" frameX="-15" frameY="-23" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0017" x="0" y="1499" width="320" height="352" frameX="-15" frameY="-23" frameWidth="351" frameHeight="376"/>
+	<SubTexture name="play clicked0018" x="321" y="795" width="320" height="351" frameX="-16" frameY="-24" frameWidth="351" frameHeight="376"/>
+</TextureAtlas>

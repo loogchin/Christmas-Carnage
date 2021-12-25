@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fire.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fireplace full0000" x="0" y="1907" width="1718" height="1910" frameX="-4" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0001" x="0" y="3817" width="1713" height="1901" frameX="0" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0002" x="0" y="3817" width="1713" height="1901" frameX="0" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0003" x="0" y="0" width="1724" height="1907" frameX="0" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0004" x="0" y="0" width="1724" height="1907" frameX="0" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0005" x="1724" y="0" width="1720" height="1911" frameX="-2" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0006" x="1724" y="0" width="1720" height="1911" frameX="-2" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0007" x="1718" y="1911" width="1716" height="1910" frameX="-5" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0008" x="1718" y="1911" width="1716" height="1910" frameX="-5" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0009" x="0" y="3817" width="1713" height="1901" frameX="0" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0010" x="0" y="3817" width="1713" height="1901" frameX="0" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0011" x="0" y="0" width="1724" height="1907" frameX="0" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0012" x="0" y="0" width="1724" height="1907" frameX="0" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0013" x="1724" y="0" width="1720" height="1911" frameX="-2" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0014" x="1724" y="0" width="1720" height="1911" frameX="-2" frameY="0" frameWidth="1724" frameHeight="1911"/>
+	<SubTexture name="fireplace full0015" x="0" y="1907" width="1718" height="1910" frameX="-4" frameY="0" frameWidth="1724" frameHeight="1911"/>
+</TextureAtlas>

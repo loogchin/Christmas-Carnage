@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				12,
+				-1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "credits idle"
+		},
+		{
+			"offsets": [
+				26,
+				13
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "selected",
+			"loop": true,
+			"name": "credits selected"
+		},
+		{
+			"offsets": [
+				19,
+				25
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "press",
+			"loop": false,
+			"name": "credits click"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "datree/MenuUI/Main Menu/buttons/credits",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "icon-tree",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		235,
+		140
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}

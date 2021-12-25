@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="blubs.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Symbol 20000" x="0" y="0" width="4067" height="661"/>
+	<SubTexture name="Symbol 20001" x="0" y="661" width="4067" height="661"/>
+	<SubTexture name="Symbol 20002" x="0" y="1322" width="4067" height="661"/>
+	<SubTexture name="Symbol 20003" x="0" y="1322" width="4067" height="661"/>
+	<SubTexture name="Symbol 20004" x="0" y="1983" width="4063" height="661" frameX="-2" frameY="0" frameWidth="4067" frameHeight="661"/>
+	<SubTexture name="Symbol 20005" x="0" y="1983" width="4063" height="661" frameX="-2" frameY="0" frameWidth="4067" frameHeight="661"/>
+</TextureAtlas>

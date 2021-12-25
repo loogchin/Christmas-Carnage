@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-303,
+				-241
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "BF idle dance"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-290,
+				-248
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "BF NOTE LEFT0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-310,
+				-310
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "BF NOTE DOWN0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-355,
+				-200
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "BF NOTE UP0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-370,
+				-248
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BF NOTE RIGHT0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-291,
+				-219
+			],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "BF NOTE LEFT MISS"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-323,
+				-267
+			],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "BF NOTE DOWN MISS"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-339,
+				-206
+			],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "BF NOTE UP MISS"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-352,
+				-216
+			],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "BF NOTE RIGHT MISS"
+		},
+		{
+			"offsets": [
+				-269,
+				1604
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "hold",
+			"loop": true,
+			"name": "strugle"
+		},
+		{
+			"offsets": [
+				-271,
+				3339
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "grab",
+			"loop": false,
+			"name": "catch bozo"
+		},
+		{
+			"offsets": [
+				-271,
+				4530
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "kill",
+			"loop": false,
+			"name": "steal bozo"
+		},
+		{
+			"offsets": [
+				-131,
+				2095
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "release",
+			"loop": false,
+			"name": "bozo fights back"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bfChristmas",
+	"position": [
+		0,
+		320
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		60,
+		-60
+	],
+	"sing_duration": 4,
+	"scale": 1.4
+}

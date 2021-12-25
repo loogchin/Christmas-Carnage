@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				12,
+				-1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "freeplay idle"
+		},
+		{
+			"offsets": [
+				26,
+				13
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "selected",
+			"loop": true,
+			"name": "freeplay selected"
+		},
+		{
+			"offsets": [
+				23,
+				20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "press",
+			"loop": false,
+			"name": "freeplay click"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "datree/MenuUI/Main Menu/buttons/freeplay",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "icon-tree",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		235,
+		140
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}

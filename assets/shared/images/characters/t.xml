@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="RECOVER_vs_christmas_tree_assets.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="transform0000" x="100" y="100" width="707" height="1140" frameX="-228" frameY="-290" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0001" x="100" y="100" width="707" height="1140" frameX="-228" frameY="-290" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0002" x="907" y="100" width="708" height="1140" frameX="-220" frameY="-290" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0003" x="100" y="100" width="707" height="1140" frameX="-228" frameY="-290" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0004" x="1715" y="100" width="707" height="1140" frameX="-236" frameY="-290" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0005" x="2522" y="100" width="707" height="1140" frameX="-210" frameY="-290" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0006" x="3329" y="100" width="707" height="1140" frameX="-245" frameY="-290" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0007" x="4136" y="100" width="708" height="1140" frameX="-195" frameY="-290" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0008" x="4944" y="100" width="707" height="1140" frameX="-272" frameY="-290" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0009" x="5751" y="100" width="704" height="1141" frameX="-183" frameY="-290" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0010" x="6555" y="100" width="702" height="1140" frameX="-276" frameY="-291" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0011" x="7357" y="100" width="707" height="1140" frameX="-205" frameY="-290" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0012" x="100" y="1341" width="707" height="1140" frameX="-252" frameY="-290" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0013" x="907" y="1341" width="705" height="1141" frameX="-197" frameY="-289" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0014" x="1712" y="1341" width="705" height="1141" frameX="-273" frameY="-289" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0015" x="2517" y="1341" width="695" height="1161" frameX="-198" frameY="-270" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0016" x="3312" y="1341" width="659" height="1222" frameX="-310" frameY="-209" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0017" x="4071" y="1341" width="718" height="1222" frameX="-220" frameY="-209" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0018" x="4889" y="1341" width="621" height="1400" frameX="-281" frameY="-61" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0019" x="5610" y="1341" width="859" height="1423" frameX="-281" frameY="-61" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0020" x="6569" y="1341" width="1217" height="1442" frameX="-60" frameY="-79" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0021" x="100" y="2883" width="1311" height="1570" frameX="-11" frameY="-40" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0022" x="1511" y="2883" width="1331" height="1638" frameX="0" frameY="-19" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0023" x="2942" y="2883" width="1331" height="1675" frameX="0" frameY="-8" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0024" x="4373" y="2883" width="1307" height="1694" frameX="-13" frameY="-2" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0025" x="5780" y="2883" width="1145" height="1700" frameX="-97" frameY="0" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0026" x="7025" y="2883" width="962" height="1203" frameX="-248" frameY="-281" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0027" x="100" y="4683" width="963" height="1203" frameX="-246" frameY="-281" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0028" x="100" y="4683" width="963" height="1203" frameX="-246" frameY="-281" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0029" x="1163" y="4683" width="963" height="1203" frameX="-247" frameY="-281" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="transform0030" x="1163" y="4683" width="963" height="1203" frameX="-247" frameY="-281" frameWidth="1331" frameHeight="1700"/>
+	<SubTexture name="tree0000" x="2226" y="4683" width="696" height="1104"/>
+</TextureAtlas>

@@ -1,0 +1,45 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				578,
+				208
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "tree",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				905,
+				658
+			],
+			"anim": "transform",
+			"fps": 24,
+			"name": "transform",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/t",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "icon-tree",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		235,
+		140
+	],
+	"camera_position": [
+		-1050,
+		-790
+	],
+	"sing_duration": 4,
+	"scale": 1.4
+}

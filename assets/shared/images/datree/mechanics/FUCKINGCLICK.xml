@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FUCKINGCLICK.png">
+	<!-- Created with Adobe Animate version 22.0.1.105 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CLICK!!0000" x="0" y="0" width="523" height="118" frameX="0" frameY="-25" frameWidth="523" frameHeight="143"/>
+	<SubTexture name="CLICK!!0001" x="0" y="118" width="522" height="116" frameX="-1" frameY="-26" frameWidth="523" frameHeight="143"/>
+	<SubTexture name="CLICK!!0002" x="0" y="234" width="510" height="137" frameX="-7" frameY="-5" frameWidth="523" frameHeight="143"/>
+	<SubTexture name="CLICK!!0003" x="510" y="234" width="509" height="137" frameX="-7" frameY="-5" frameWidth="523" frameHeight="143"/>
+	<SubTexture name="CLICK!!0004" x="0" y="371" width="507" height="142" frameX="-8" frameY="0" frameWidth="523" frameHeight="143"/>
+	<SubTexture name="CLICK!!0005" x="507" y="371" width="507" height="142" frameX="-8" frameY="0" frameWidth="523" frameHeight="143"/>
+	<SubTexture name="CLICK!!0006" x="0" y="513" width="507" height="142" frameX="-8" frameY="0" frameWidth="523" frameHeight="143"/>
+	<SubTexture name="CLICK!!0007" x="507" y="513" width="507" height="142" frameX="-8" frameY="0" frameWidth="523" frameHeight="143"/>
+</TextureAtlas>

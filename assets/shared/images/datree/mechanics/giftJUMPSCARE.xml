@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="giftJUMPSCARE.png">
+	<!-- Created with Adobe Animate version 22.0.1.105 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="jumpscare0000" x="0" y="0" width="620" height="1074" frameX="-301" frameY="-520" frameWidth="1253" frameHeight="1594"/>
+	<SubTexture name="jumpscare0001" x="676" y="0" width="588" height="1025" frameX="-279" frameY="-364" frameWidth="1253" frameHeight="1594"/>
+	<SubTexture name="jumpscare0002" x="1320" y="0" width="588" height="1056" frameX="-300" frameY="-289" frameWidth="1253" frameHeight="1594"/>
+	<SubTexture name="jumpscare0003" x="1964" y="0" width="613" height="1098" frameX="-293" frameY="-262" frameWidth="1253" frameHeight="1594"/>
+	<SubTexture name="jumpscare0004" x="2633" y="0" width="724" height="1133" frameX="-159" frameY="-230" frameWidth="1253" frameHeight="1594"/>
+	<SubTexture name="jumpscare0005" x="0" y="1189" width="918" height="1171" frameX="-214" frameY="-192" frameWidth="1253" frameHeight="1594"/>
+	<SubTexture name="jumpscare0006" x="974" y="1189" width="861" height="1217" frameX="-193" frameY="-146" frameWidth="1253" frameHeight="1594"/>
+	<SubTexture name="jumpscare0007" x="1891" y="1189" width="1253" height="1363" frameX="0" frameY="0" frameWidth="1253" frameHeight="1594"/>
+</TextureAtlas>

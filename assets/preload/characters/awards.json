@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				12,
+				-1
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "awards idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				14
+			],
+			"anim": "press",
+			"fps": 24,
+			"name": "awards click",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				26,
+				13
+			],
+			"anim": "selected",
+			"fps": 24,
+			"name": "awards selected",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "datree/MenuUI/Main Menu/buttons/awards",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "icon-tree",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		235,
+		140
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}

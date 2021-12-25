@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="freeplay.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="freeplay idle0000" x="1285" y="444" width="301" height="441" frameX="0" frameY="-1" frameWidth="301" frameHeight="442"/>
+	<SubTexture name="freeplay idle0001" x="1285" y="444" width="301" height="441" frameX="0" frameY="-1" frameWidth="301" frameHeight="442"/>
+	<SubTexture name="freeplay idle0002" x="1586" y="0" width="301" height="442"/>
+	<SubTexture name="freeplay idle0003" x="1586" y="0" width="301" height="442"/>
+	<SubTexture name="freeplay clicked0000" x="344" y="484" width="334" height="386" frameX="0" frameY="-88" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0001" x="344" y="484" width="334" height="386" frameX="0" frameY="-88" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0002" x="688" y="0" width="297" height="474" frameX="-18" frameY="0" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0003" x="688" y="0" width="297" height="474" frameX="-18" frameY="0" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0004" x="985" y="0" width="300" height="454" frameX="-16" frameY="-18" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0005" x="985" y="0" width="300" height="454" frameX="-16" frameY="-18" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0006" x="1285" y="0" width="301" height="444" frameX="-16" frameY="-29" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0007" x="1285" y="0" width="301" height="444" frameX="-16" frameY="-29" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0008" x="688" y="474" width="301" height="441" frameX="-16" frameY="-32" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0009" x="688" y="474" width="301" height="441" frameX="-16" frameY="-32" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0010" x="1586" y="442" width="301" height="442" frameX="-16" frameY="-31" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0011" x="1586" y="442" width="301" height="442" frameX="-16" frameY="-31" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0012" x="688" y="474" width="301" height="441" frameX="-16" frameY="-32" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0013" x="688" y="474" width="301" height="441" frameX="-16" frameY="-32" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0014" x="1586" y="442" width="301" height="442" frameX="-16" frameY="-31" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0015" x="1586" y="442" width="301" height="442" frameX="-16" frameY="-31" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0016" x="688" y="474" width="301" height="441" frameX="-16" frameY="-32" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0017" x="688" y="474" width="301" height="441" frameX="-16" frameY="-32" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay clicked0018" x="1586" y="442" width="301" height="442" frameX="-16" frameY="-31" frameWidth="334" frameHeight="474"/>
+	<SubTexture name="freeplay selected0000" x="344" y="0" width="344" height="484" frameX="0" frameY="-1" frameWidth="344" frameHeight="485"/>
+	<SubTexture name="freeplay selected0001" x="344" y="0" width="344" height="484" frameX="0" frameY="-1" frameWidth="344" frameHeight="485"/>
+	<SubTexture name="freeplay selected0002" x="0" y="0" width="344" height="485"/>
+	<SubTexture name="freeplay selected0003" x="0" y="0" width="344" height="485"/>
+</TextureAtlas>

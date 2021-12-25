@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FUCKINGPRESSSPACE.png">
+	<!-- Created with Adobe Animate version 22.0.1.105 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="space0000" x="0" y="0" width="430" height="119" frameX="0" frameY="-24" frameWidth="430" frameHeight="143"/>
+	<SubTexture name="space0001" x="430" y="0" width="429" height="119" frameX="0" frameY="-24" frameWidth="430" frameHeight="143"/>
+	<SubTexture name="space0002" x="0" y="119" width="412" height="137" frameX="-9" frameY="-6" frameWidth="430" frameHeight="143"/>
+	<SubTexture name="space0003" x="412" y="119" width="411" height="136" frameX="-10" frameY="-6" frameWidth="430" frameHeight="143"/>
+	<SubTexture name="space0004" x="0" y="256" width="409" height="143" frameX="-10" frameY="0" frameWidth="430" frameHeight="143"/>
+</TextureAtlas>
