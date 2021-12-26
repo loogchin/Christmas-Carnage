@@ -57,10 +57,21 @@ import flixel.tweens.misc.NumTween;
 import sys.FileSystem;
 #end
 
+#if mobileC
+import ui.Mobilecontrols;
+import ui.FlxVirtualPad;
+
+#end
+
 using StringTools;
 
 class PlayState extends MusicBeatState
 {
+	#if mobileC
+	var mcontrols:Mobilecontrols; 
+	var _pad:FlxVirtualPad;
+	#end
+
 	public static var STRUM_X = 42;
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
@@ -795,6 +806,45 @@ class PlayState extends MusicBeatState
 		timeTxt.cameras = [camHUD];
 		doof.cameras = [camHUD];
 
+		#if mobileC
+			mcontrols = new Mobilecontrols();
+			switch (mcontrols.mode)
+			{
+				case VIRTUALPAD_RIGHT | VIRTUALPAD_LEFT | VIRTUALPAD_CUSTOM:
+					controls.setVirtualPadNOTES(mcontrols._virtualPad, FULL, NONE);
+				case HITBOX:
+					controls.setHitBoxNOTES(mcontrols._hitbox);
+				default:
+			}
+			trackedinputsNOTES = controls.trackedinputsNOTES;
+			controls.trackedinputsNOTES = [];
+
+			var camcontrol = new FlxCamera();
+			FlxG.cameras.add(camcontrol);
+			camcontrol.bgColor.alpha = 0;
+			mcontrols.cameras = [camcontrol];
+
+			mcontrols.visible = false;
+
+			add(mcontrols);
+
+			if (SONG.song.toLowerCase() == "sleigh'd") 
+				{
+					_pad = new FlxVirtualPad(NONE, A);
+					_pad.alpha = 0.75;
+					_pad.visible = false;
+					_pad.cameras = [camcontrol];
+					add(_pad);
+				}
+		#end		
+
+		var creditText:FlxText = new FlxText(876, 648, 348);
+        creditText.text = 'PORTED BY\nNong Vanila';
+        creditText.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+		creditText.cameras = [camHUD];
+        creditText.scrollFactor.set();
+        add(creditText);
+
 		//Mech handler -lunar
 
 		Eyes = new FlxTypedGroup<EvilEye>();
@@ -1157,6 +1207,15 @@ class PlayState extends MusicBeatState
 		inCutscene = false;
 		var ret:Dynamic = callOnLuas('onStartCountdown', []);
 		if(ret != FunkinLua.Function_Stop) {
+			#if mobileC
+		        mcontrols.visible = true;
+
+				if (SONG.song.toLowerCase() == "sleigh'd") 
+					{
+						_pad.visible = true;
+					}
+		        #end
+				
 			generateStaticArrows(0);
 			generateStaticArrows(1);
 			for (i in 0...playerStrums.length) {
@@ -1400,11 +1459,7 @@ class PlayState extends MusicBeatState
 
 		var songName:String = Paths.formatToSongPath(SONG.song);
 		var file:String = Paths.json(songName + '/events');
-		#if sys
-		if (FileSystem.exists(Paths.modsJson(songName + '/events')) || FileSystem.exists(file)) {
-		#else
 		if (OpenFlAssets.exists(file)) {
-		#end
 			var eventsData:Array<SwagSection> = Song.loadFromJson('events', songName).notes;
 			for (section in eventsData)
 			{
@@ -1783,7 +1838,7 @@ class PlayState extends MusicBeatState
 
 		if (doingreef && reefArrows != null && !cpuControlled && health > 0) {
 			for (i in 0...reefBarShit.length) {
-				if (FlxG.keys.justPressed.SPACE && reefArrows.x >= reefBarShit[i][0] && reefArrows.x <= reefBarShit[i][1]) {
+				if (FlxG.keys.justPressed.SPACE#if mobileC || _pad.buttonA.justPressed #end && reefArrows.x >= reefBarShit[i][0] && reefArrows.x <= reefBarShit[i][1]) {
 					switch (reefBarShit[i][2]) {
 						case 'RED':
 							cameraflash(camHUD,FlxColor.fromRGB(255,0,0,255));
@@ -2013,7 +2068,7 @@ class PlayState extends MusicBeatState
 		}
 		botplayTxt.visible = cpuControlled;
 
-		if (controls.PAUSE && startedCountdown && canPause)
+		if (FlxG.keys.justPressed.ENTER#if android || FlxG.android.justReleased.BACK #end && startedCountdown && canPause)
 		{
 			var ret:Dynamic = callOnLuas('onPause', []);
 			if(ret != FunkinLua.Function_Stop) {
@@ -3036,6 +3091,9 @@ class PlayState extends MusicBeatState
 			}
 		}
 		
+		#if mobileC
+		mcontrols.visible = false;
+		#end
 		timeBarBG.visible = false;
 		timeBar.visible = false;
 		timeTxt.visible = false;

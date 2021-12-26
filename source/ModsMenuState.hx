@@ -72,6 +72,7 @@ class ModsMenuState extends MusicBeatState
 		noModsTxt.screenCenter();
 
 		// FIND MOD FOLDERS
+		#if MODS_ALLOWED
 		var modsFolder:String = Paths.mods();
 		var folderList:Array<String> = [];
 		if(FileSystem.exists(modsFolder)) {
@@ -83,6 +84,7 @@ class ModsMenuState extends MusicBeatState
 				}
 			}
 		}
+		#end
 
 		selector = new AttachedSprite();
 		selector.xAdd = -205;
@@ -148,6 +150,7 @@ class ModsMenuState extends MusicBeatState
 		descriptionTxt.scrollFactor.set();
 		add(descriptionTxt);
 		
+		#if MODS_ALLOWED
 		for (i in 0...folderList.length)
 		{
 			var newMod:ModMetadata = new ModMetadata(folderList[i]);
@@ -181,6 +184,7 @@ class ModsMenuState extends MusicBeatState
 			newMod.icon.yAdd = -45;
 			add(newMod.icon);
 		}
+		#end
 		
 		if(curSelected >= mods.length) curSelected = 0;
 		
@@ -199,6 +203,10 @@ class ModsMenuState extends MusicBeatState
 		updatePosition();
 
 		FlxG.mouse.visible = true;
+
+		#if mobileC
+        addVirtualPad(UP_DOWN, B);
+        #end
 
 		super.create();
 	}
@@ -378,6 +386,8 @@ class ModMetadata
         this.color = ModsMenuState.defaultColor;
 
         // Try loading json
+		
+		#if MODS_ALLOWED
         var path = Paths.mods(folder + '/pack.json');
         if (FileSystem.exists(path))
         {
@@ -403,5 +413,6 @@ class ModMetadata
                     this.color = FlxColor.fromRGB(stuff.color[0], stuff.color[1], stuff.color[2]);
             }
         }
+		#end
     }
 }

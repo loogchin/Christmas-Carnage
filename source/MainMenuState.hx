@@ -20,6 +20,7 @@ import lime.app.Application;
 import Achievements;
 import editors.MasterEditorMenu;
 import flixel.input.keyboard.FlxKey;
+import openfl.utils.Assets as OpenFlAssets;
 
 using StringTools;
 
@@ -113,6 +114,10 @@ class MainMenuState extends MusicBeatState
 		}
 		#end
 		*/
+
+		#if mobileC
+		addVirtualPad(LEFT_RIGHT, A_B);
+		#end
 		super.create();
 	}
 
@@ -183,11 +188,7 @@ class MainMenuState extends MusicBeatState
 						
 										var songLowercase:String = Paths.formatToSongPath(songname);
 										var poop:String = Highscore.formatSong(songLowercase, diff);
-										#if MODS_ALLOWED
-										if(!sys.FileSystem.exists(Paths.modsJson(songLowercase + '/' + poop)) && !sys.FileSystem.exists(Paths.json(songLowercase + '/' + poop))) {
-										#else
 										if(!OpenFlAssets.exists(Paths.json(songLowercase + '/' + poop))) {
-										#end
 											poop = songLowercase;
 											diff = 1;
 											trace('Couldnt find file');
